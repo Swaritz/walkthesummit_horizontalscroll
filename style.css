@@ -25,13 +25,13 @@ body {
 .slide-track2 {
     display: flex;
     width: calc(250px*18);
-    animation: scroll 20s linear infinite;
+    animation: scroll 55s linear infinite;
 }
 
 .slide-track3 {
     display: flex;
     width: calc(250px*18);
-    animation: scroll 55s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 .slide-track3:hover {
