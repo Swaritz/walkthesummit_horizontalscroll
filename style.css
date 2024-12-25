@@ -15,7 +15,7 @@ body {
 .slide-track {
     display: flex;
     width: calc(250px*14);
-    animation: scroll 30s linear infinite;
+    animation: scroll 70s linear infinite;
 }
 
 .slide-track:hover {
@@ -24,14 +24,14 @@ body {
 
 .slide-track2 {
     display: flex;
-    width: calc(250px*18);
-    animation: scroll 55s linear infinite reverse;
+    width: calc(250px*14);
+    animation: scroll 95s linear infinite reverse;
 }
 
 .slide-track3 {
     display: flex;
-    width: calc(250px*18);
-    animation: scroll 20s linear infinite;
+    width: calc(250px*14);
+    animation: scroll 50s linear infinite;
 }
 
 .slide-track3:hover {
@@ -47,7 +47,7 @@ body {
         transfor: translateX(0);
     }
     100% {
-        transform: translateX(calc(-250px*9))
+        transform: translateX(calc(-250px*7))
     }
 }
 
